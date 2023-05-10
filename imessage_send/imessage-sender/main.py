@@ -1,6 +1,4 @@
 #!/Library/Frameworks/Python.framework/Versions/3.7/bin/python3
-# Author: Chhaileng Peng <hello@chhaileng.com>
-# GitHub: @chhaileng
 
 import datetime
 import sys
