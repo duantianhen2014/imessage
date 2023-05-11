@@ -1,0 +1,26 @@
+*.pyc
+*.egg*
+.coverage
+.tox
+venv
+_build
+build/
+.DS_Store
+.cache/
+.env
+.venv
+.envrc
+/dist
+/tmp
+factset/data/*
+
+# pycharm
+.idea/
+
+# ipython
+.ipynb_checkpoints/
+
+# Sublime
+/*.sublime-*
+
+run.py
