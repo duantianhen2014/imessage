@@ -19,3 +19,4 @@ for i in range(5):
   print("Sending '" + msg + "' ...")
   os.system('osascript scripts/sendiMessage.scpt "' + to + '" "' + msg + '"')
   time.sleep(1)
+osascript ./sendiMessage.scpt "1157679478@qq.com" "realy ??"
