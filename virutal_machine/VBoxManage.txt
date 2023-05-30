@@ -1,11 +1,11 @@
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxVer" "SS"
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxRev" "sa"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxVer" "SS"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxRev" "sa"
 
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" ""
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" ""
 
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareVersion" ""
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareVersion" ""
 
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSSystemFirmwareVersion" "abc"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSSystemFirmwareVersion" "abc"
 
 
 
@@ -14,42 +14,49 @@ VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSSyste
 
 
 //修改【System Firmware Version】
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSVersion" "BIOS Version2"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSVersion" "589234"
 //修改【Apple Rom Info】
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxVer" "SS"
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxRev" "sa"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxVer" "7412.100."
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxRev" "750"
 //修改【Processor Name】
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiProcManufacturer"  "GenuineIntel"
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiProcVersion" "Apple M2 Pro"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiProcManufacturer"  "GenuineIntel"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiProcVersion" "Apple M2 Pro"
 
 
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSVendor" "BIOS Vendor1"
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSVersion" "BIOS Version2"
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseDate" "BIOS Release Date3"
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMajor" 1
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMinor" 2
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMajor" 3
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMinor" 4
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSVendor" "BIOS Vendor1"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSVersion" "BIOS Version2"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseDate" "BIOS Release Date3"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMajor" 1
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMinor" 2
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMajor" 3
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMinor" 4
 
 
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiSystemSerial" "C02DN0W7JV3Q"
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/smc/0/Config/DmiSystemUuid" "B8505363-3F7E-4A75-BADE-D48D7459ABB4"
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/smc/0/Config/DmiBoardSerial" "C02045101J9LNV9UE"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiSystemSerial" "C02DN0W7JV3Q"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/smc/0/Config/DmiSystemUuid" "B8505363-3F7E-4A75-BADE-D48D7459ABB4"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/smc/0/Config/DmiBoardSerial" "C02045101J9LNV9UE"
 
 
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiSystemSKU" "System SKU"
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "System Version"
-VBoxManage setextradata macos_13 "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "System Product"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiSystemSKU" "System SKU"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "System Version"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "System Product"
 
 
-
-
+//克隆出一个虚拟机[指定位置/只克隆机器/新机器名称/注册/指定uuid]
+VBoxManage clonevm macos_13 --basefolder=D:\virtual_box\macos_new12\ --mode=machine --name=macos_new12 --register --uuid=B8505363-3F7E-4A75-BADE-D48D7459ABB4
 //创建虚拟机并注册
 VBoxManage createvm --name=macos_new12 --basefolder=D:\virtual_box\macos_new12\ -uuid=B8505363-3F7E-4A75-BADE-D48D7459ABB4 --register
-VBoxManage clonehd "C:\virtual_box\macos_13\macos_13\macos_13.vdi" "D:\virtual_box\macos_new12\macos_new12\macos_new12.vdi"
+VBoxManage clonehd "C:\virtual_box\macos_new12\macos_new12\macos_new12.vdi" "D:\virtual_box\macos_new12\macos_new12\macos_new12.vdi"
 //修改uuid
 VBoxManage internalcommands sethduuid "D:\virtual_box\macos_new12\macos_new12\macos_new12.vdi" B8505363-3F7E-4A75-BADE-D48D7459ABB4
 //修改快照的uuid
 VBoxManage internalcommands sethdparentuuid "E:\VirtualMachine\ubuntu_Routing\Snapshots/{5bbce121-479c-4bf1-aa61-33fbeeaf44f4}.vdi" B8505363-3F7E-4A75-BADE-D48D7459ABB4
-VBoxManage modifyvm macos_13 --hardware-uuid=02D7A842-F380-4D39-BA50-FCB8CC25805A
-VBoxManage modifynvram macos_13 queryvar [--name=name] [--filename=filename]
+//修改hardware-uuid
+VBoxManage modifyvm macos_new12 --hardware-uuid=02D7A842-F380-4D39-BA50-FCB8CC25805A
+
+
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiBIOSVersion" "BIOS_589234"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxRev" ".750"
+VBoxManage setextradata macos_new12 "VBoxInternal/Devices/efi/0/Config/DmiOEMVBoxVer" ".7412.100"
+
+VBoxManage modifynvram macos_new12 queryvar [--name=name] [--filename=filename]
