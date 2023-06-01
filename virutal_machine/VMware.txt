@@ -1,4 +1,4 @@
-
+https://github.com/dortania/macOS-VMware-Guide/blob/master/post-installation-tweaks.md
 //修改主板号
 board-id.reflectHost = "FALSE"
 board-id = "C02646270QXHCF9AD"
@@ -21,7 +21,25 @@ smbios.majorVersion = "123.4"
 smbios.minorVersion = "567.8"
 
 
-//修改uuid【B854E178-CF14-4E34-A83B-2272BC433A09】复制虚拟机，改变目录，同时清除掉nvram
+//修改
+board-id.reflectHost = "TRUE"
+board-id = "Mac-B4831CEBD52A0C4C"   # Mac-B4831CEBD52A0C4C
+hw.model.reflectHost = "FALSE"
+hw.model = "MacBookPro13,3"   # MacBookPro14,1
+serialNumber.reflectHost = "FALSE"
+serialNumber = "C02V81YZGTFN"	# C02ZP0KRHV29
+smbios.reflectHost = "FALSE"
+efi.nvram.var.ROM.reflectHost = "FALSE"
+efi.nvram.var.MLB.reflectHost = "FALSE"
+efi.nvram.var.ROM = "3C07546C65DE"	# 3C07546C65DE
+efi.nvram.var.MLB = "C02734405CDHCF9CB" # C02946301QXHWVPCB
+firmware = "efi"
+ethernet0.addressType = "static"
+ethernet0.Address = "FFF"  # 网络查
+ethernet0.checkMACAddress = "false"
+
+
+//修改uuid【CF7D686C-1C7D-4B76-896E-006E906CBB3D】复制虚拟机，改变目录，同时清除掉nvram
 uuid.bios = "56 4d b1 69 60 1c ac e5-9b 31 22 59 ab 6a 01 18"
 uuid.location = "56 4d b1 69 60 1c ac e5-9b 31 22 59 ab 6a 01 18"
 uuid.action = "change"
