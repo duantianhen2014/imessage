@@ -1,0 +1,44 @@
+
+//修改主板号
+board-id.reflectHost = "FALSE"
+board-id = "C02646270QXHCF9AD"
+//修改急性
+hw.model.reflectHost = "FALSE"
+hw.model = "MacBookPro13,3"
+//修改序列号
+serialNumber.reflectHost = "FALSE"
+serialNumber = "C02SPSYXGTFN"
+smbios.reflectHost = "FALSE"
+vadkVersion.reflectHost = "FALSE"
+vadkVersion = "vadkVersion123"
+vadk.version.reflectHost = "FALSE"
+vadk.version = "vadkVersion123"
+product-id.reflectHost = "FALSE"
+product-id = "abcdefghi"
+smbios.version.reflectHost = "FALSE"
+smbios.version = "abc"
+smbios.majorVersion = "123.4"
+smbios.minorVersion = "567.8"
+
+
+//修改uuid【B854E178-CF14-4E34-A83B-2272BC433A09】
+uuid.bios = "56 4d b1 69 60 1c ac e5-9b 31 22 59 ab 6a 01 18"
+uuid.location = "56 4d b1 69 60 1c ac e5-9b 31 22 59 ab 6a 01 18"
+uuid.action = "change"
+
+
+//杂项
+isolation.tools.getPtrLocation.disable = "TRUE" 
+isolation.tools.setPtrLocation.disable = "TRUE" 
+isolation.tools.setVersion.disable = "TRUE" 
+isolation.tools.getVersion.disable = "TRUE" 
+monitor_control.disable_directexec = "TRUE" 
+monitor_control.disable_chksimd = "TRUE" 
+monitor_control.disable_ntreloc = "TRUE" 
+monitor_control.disable_selfmod = "TRUE" 
+monitor_control.disable_reloc = "TRUE" 
+monitor_control.disable_btinout = "TRUE" 
+monitor_control.disable_btmemspace = "TRUE" 
+monitor_control.disable_btpriv = "TRUE" 
+monitor_control.disable_btseg = "TRUE" 
+monitor_control.restrict_backdoor = "TRUE"
