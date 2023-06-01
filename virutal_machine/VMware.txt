@@ -21,7 +21,7 @@ smbios.majorVersion = "123.4"
 smbios.minorVersion = "567.8"
 
 
-//修改uuid【B854E178-CF14-4E34-A83B-2272BC433A09】
+//修改uuid【B854E178-CF14-4E34-A83B-2272BC433A09】复制虚拟机，改变目录，同时清除掉nvram
 uuid.bios = "56 4d b1 69 60 1c ac e5-9b 31 22 59 ab 6a 01 18"
 uuid.location = "56 4d b1 69 60 1c ac e5-9b 31 22 59 ab 6a 01 18"
 uuid.action = "change"
@@ -42,3 +42,15 @@ monitor_control.disable_btmemspace = "TRUE"
 monitor_control.disable_btpriv = "TRUE" 
 monitor_control.disable_btseg = "TRUE" 
 monitor_control.restrict_backdoor = "TRUE"
+
+//闪退时设置
+smc.version = "0"
+cpuid.0.eax = "0000:0000:0000:0000:0000:0000:0000:1011"
+cpuid.0.ebx = "0111:0101:0110:1110:0110:0101:0100:0111"
+cpuid.0.ecx = "0110:1100:0110:0101:0111:0100:0110:1110"
+cpuid.0.edx = "0100:1001:0110:0101:0110:1110:0110:1001"
+cpuid.1.eax = "0000:0000:0000:0001:0000:0110:0111:0001"
+cpuid.1.ebx = "0000:0010:0000:0001:0000:1000:0000:0000"
+cpuid.1.ecx = "1000:0010:1001:1000:0010:0010:0000:0011"
+cpuid.1.edx = "0000:0111:1000:1011:1111:1011:1111:1111"
+featureCompat.enable = "TRUE"
