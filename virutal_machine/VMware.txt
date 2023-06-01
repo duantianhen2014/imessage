@@ -2,7 +2,7 @@
 //修改主板号
 board-id.reflectHost = "FALSE"
 board-id = "C02646270QXHCF9AD"
-//修改急性
+//修改机型
 hw.model.reflectHost = "FALSE"
 hw.model = "MacBookPro13,3"
 //修改序列号
